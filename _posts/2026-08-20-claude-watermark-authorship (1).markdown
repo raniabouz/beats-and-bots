@@ -3,7 +3,7 @@ layout: post
 title: "The Claude watermark, and the authorship question nobody asked for"
 tag: AI & copyright
 tag_color: c3
-thumbnail: /assets/images/posts/watermark.jpg
+thumbnail: /assets/images/posts/claude.jpg
 ---
 
 You must have seen it. Everyone is asking about the supposed 'Claude watermark' and what it means for them. My social media has been flooded with medical students speculating about how it will affect the quality of their academic writing, alongside tech-savvy creators trying to circumvent it through specific Claude 'Skills'. So what is this all about?
@@ -55,3 +55,8 @@ Not much, legally. It doesn't determine authorship. What it does is make a certa
 That's a bigger shift than it sounds. Copyright disputes over AI-assisted work have so far mostly hinged on self-reporting and circumstantial evidence: platform metadata, version histories, an author's own account of their process. A persistent, word-level signal that survives copy-paste is a different kind of evidence entirely, closer to the sort of forensic trail courts are used to weighing in other contexts, and a long way from where AI-authorship disputes have generally sat until now. But it's a trail that only catches one shape of AI involvement, and the two examples above suggest it may be the wrong one to be catching.
 
 For journalists, students, and anyone else quietly leaning on Claude somewhere between "grammar check" and "co-author," that's the real stakes. Not that the watermark itself is unfair, but that it hands future editors, publishers, and courts a piece of evidence calibrated to measure the wrong thing, and no obvious way to tell, from the mark alone, whether they're looking at a light polish or a ghostwritten piece, let alone the reverse.
+
+
+
+
+Photo by [Brett Wharton](https://unsplash.com/@brettwharton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/laptop-screen-displaying-claude-fable-3-is-currently-unavailable-message-dmmIt1jPW6w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
