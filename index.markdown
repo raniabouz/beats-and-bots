@@ -6,7 +6,7 @@ title: Home
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow"><span class="dot"></span><span class="label">Law for tech and media</span></p>
+      <p class="eyebrow"><span class="docket">NO. 01</span><span class="divider"></span><span class="label">Law for tech and media</span></p>
       <h1>Where IP, platforms,<br>and AI meet the<br><span class="pop">law that governs them.</span></h1>
       <p class="sub">Notes on copyright, platform regulation, and the legal questions technology and media keep raising faster than the law can answer.</p>
       <div class="hero-cta">
