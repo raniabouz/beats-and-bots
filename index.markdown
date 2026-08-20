@@ -59,11 +59,11 @@ title: Home
   <div class="wrap">
     <div class="section-head"><h2>What this blog covers</h2></div>
     <ul class="topic-list">
-      <li><span class="dot" style="background:var(--navy)"></span><div><h4>Training data &amp; infringement</h4><p>What "input" means legally when a model learns from copyrighted work.</p></div></li>
-      <li><span class="dot" style="background:var(--rose)"></span><div><h4>Ownership &amp; authorship</h4><p>Where the law draws the line between a tool and a co-creator.</p></div></li>
-      <li><span class="dot" style="background:var(--mustard)"></span><div><h4>Platform policy</h4><p>How platforms' own rules shape what's actually enforceable.</p></div></li>
-      <li><span class="dot" style="background:var(--navy)"></span><div><h4>Personality &amp; voice rights</h4><p>Passing off, likeness, and what happens when an AI sounds like someone real.</p></div></li>
-    </ul>
+  <li><span class="dot" style="background:var(--navy)"></span><div><h4>AI &amp; regulation</h4><p>How the law is racing to catch up with generative AI.</p></div></li>
+  <li><span class="dot" style="background:var(--rose)"></span><div><h4>Platforms &amp; speech</h4><p>The rules platforms set, and the ones governments do.</p></div></li>
+  <li><span class="dot" style="background:var(--mustard)"></span><div><h4>Data &amp; privacy</h4><p>Who owns your information, and what happens when it moves.</p></div></li>
+  <li><span class="dot" style="background:var(--navy)"></span><div><h4>Media &amp; IP</h4><p>Ownership, authorship, and the business of content.</p></div></li>
+</ul>
   </div>
 </section>
 
