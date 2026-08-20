@@ -18,7 +18,7 @@ Large language models generate text one word at a time, choosing between several
 
 Crucially, the mark travels with the words themselves, not with a file or a session. Copy the sentence into a different document, and the pattern remains. It's also, by design, fairly persistent: Anthropic hasn't said exactly how much editing it takes to strip the mark out, though the underlying technique is widely expected to weaken under heavy rewriting rather than survive it indefinitely.
 
-![How Claude's text watermark works](/assets/images/posts/watermark-diagram.png)
+![How Claude's text watermark works]({{ '/assets/images/posts/watermark-diagram.png' | relative_url }})
 
 ## The nuance that actually matters
 
