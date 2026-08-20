@@ -90,7 +90,6 @@
 .hero h1, .hero p.sub, .eyebrow .label{
   text-shadow: 0 1px 8px rgba(255,255,255,0.6);
 }
-  .hero-squiggle{ position:absolute; top:20px; right:0; width:40%; height:auto; pointer-events:none; z-index:0; }
   .btn{ font-weight:600; font-size:0.92rem; padding: 12px 22px; border-radius:999px; text-decoration:none; display:inline-block; border:2px solid var(--navy); }
   .btn-solid{ background: var(--navy); color: var(--white); }
   .btn-solid:hover{ background: var(--ink); border-color: var(--ink); }
@@ -171,7 +170,12 @@
     .topic-list{ grid-template-columns: 1fr; }
     .hero{ padding: 52px 0 60px; }
     .posts{ grid-template-columns: 1fr; }
-    nav ul{ gap:16px; }
+    .nav-toggle{ display:flex; flex-direction:column; justify-content:center; gap:5px; width:32px; height:32px; background:none; border:none; cursor:pointer; padding:0; }
+    .nav-toggle span{ display:block; width:100%; height:2px; background:var(--navy); border-radius:2px; }
+    nav ul{ display:none; flex-direction:column; gap:14px; position:absolute; top:100%; left:0; right:0; background:var(--white); padding:20px 28px; border-bottom:1px solid var(--line); }
+    nav.nav-open ul{ display:flex; }
+    .nav-toggle{ display:none; }
+    header{ position:relative; }
     .hero-art{ order:-1; }
   }
 </style>
@@ -186,14 +190,17 @@
         <span class="brand-name">Beats &amp; Bots</span>
       </a>
     </div>
-    <nav aria-label="Primary">
-      <ul>
-        <li><a href="{{ '/' | relative_url }}#posts">Posts</a></li>
-        <li><a href="{{ '/' | relative_url }}#topics">What I cover</a></li>
-        <li><a href="{{ '/' | relative_url }}#about">About</a></li>
-        <li><a href="{{ '/' | relative_url }}#footer">Get in touch</a></li>
-      </ul>
-    </nav>
+   <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" onclick="document.querySelector('nav').classList.toggle('nav-open'); this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');">
+  <span></span><span></span><span></span>
+</button>
+<nav aria-label="Primary">
+  <ul>
+    <li><a href="{{ '/' | relative_url }}#posts">Posts</a></li>
+    <li><a href="{{ '/' | relative_url }}#topics">What I cover</a></li>
+    <li><a href="{{ '/' | relative_url }}#about">About</a></li>
+    <li><a href="{{ '/' | relative_url }}#footer">Get in touch</a></li>
+  </ul>
+</nav>
   </div>
 </header>
 
