@@ -59,4 +59,4 @@ For journalists, students, and anyone else quietly leaning on Claude somewhere b
 
 
 
-Photo by [Brett Wharton](https://unsplash.com/@brettwharton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/laptop-screen-displaying-claude-fable-3-is-currently-unavailable-message-dmmIt1jPW6w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Thumbnail photo by [Brett Wharton](https://unsplash.com/@brettwharton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/laptop-screen-displaying-claude-fable-3-is-currently-unavailable-message-dmmIt1jPW6w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
