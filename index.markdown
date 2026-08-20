@@ -62,7 +62,7 @@ title: Home
   <li><span class="dot" style="background:var(--navy)"></span><div><h4>AI &amp; regulation</h4><p>How the law is racing to catch up with generative AI.</p></div></li>
   <li><span class="dot" style="background:var(--rose)"></span><div><h4>Platforms &amp; speech</h4><p>The rules platforms set, and the ones governments do.</p></div></li>
   <li><span class="dot" style="background:var(--mustard)"></span><div><h4>Data &amp; privacy</h4><p>Who owns your information, and what happens when it moves.</p></div></li>
-  <li><span class="dot" style="background:var(--navy)"></span><div><h4>Media &amp; IP</h4><p>Ownership, authorship, and the business of content.</p></div></li>
+  <li><span class="dot" style="background:#4F7A6B"></span><div><h4>Media &amp; IP</h4><p>Ownership, authorship, and the business of content.</p></div></li>
 </ul>
   </div>
 </section>
