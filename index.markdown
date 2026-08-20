@@ -73,9 +73,9 @@ title: Home
       <img src="{{ '/assets/images/mylogo.png' | relative_url }}" alt="Beats and Bots logo" style="width:100%; height:auto; display:block;">
     </div>
     <div>
-      <h2>Written by a music-and-law crossbreed</h2>
-      <p>Beats and Bots is written by Rania, a First Class LLB graduate (University of Sussex) specialising in IP, technology, and platform law. Before law, she spent years in music and documentary photography — which is where the questions behind this blog started.</p>
-      <p>Her research on generative AI and music ownership, funded through a Junior Research Associate project, was presented at BCUR 2025. She's since worked across ad policy, platform compliance, and IP research, and writes here to keep pulling that thread.</p>
+    <h2>Written by a music-and-law crossbreed</h2>
+    <p>I'm Rania, a First Class LLB graduate (University of Sussex) specialising in IP, technology, and platform law. Before law, I spent years in music and documentary photography — which is where the questions behind this blog started.</p>
+    <p>My research on generative AI and music ownership, funded through a Junior Research Associate project, was presented at the British Conference of Undergraduate Research 2025. I've since worked across ad policy and platform compliance during a placement year at TikTok, alongside experience at The Guardian and Hogan Lovells' first-year scheme, and I write here to keep pulling that thread.</p>
       <div class="credentials">
         <span class="pill">WIPO ADR Young</span>
         <span class="pill">The Copyright Society</span>
