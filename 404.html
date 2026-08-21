@@ -1,25 +1,18 @@
 ---
+layout: default
+title: Page not found
 permalink: /404.html
-layout: page
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section style="padding: 100px 0; text-align:center;">
+  <div class="wrap">
+    <img src="{{ '/assets/images/mylogo.png' | relative_url }}" alt="" style="width:80px; height:80px; object-fit:contain; margin:0 auto 28px;">
+    <p class="eyebrow" style="justify-content:center;"><span class="label">404</span></p>
+    <h1 style="font-size:clamp(1.8rem, 3.5vw, 2.6rem); margin-bottom:16px;">This page went undocumented.</h1>
+    <p style="color:var(--text-mute); font-size:1.05rem; max-width:44ch; margin:0 auto 32px;">Even I can't find a citation for this one. The page you're looking for doesn't exist, or has moved.</p>
+    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+      <a href="{{ '/' | relative_url }}" class="btn btn-solid">Back to the homepage</a>
+      <a href="{{ '/' | relative_url }}#posts" class="btn btn-ghost">Read the latest post</a>
+    </div>
+  </div>
+</section>
