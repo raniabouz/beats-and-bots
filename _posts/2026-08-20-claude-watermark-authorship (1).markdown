@@ -24,7 +24,7 @@ The mark travels with the words themselves, not with a file or a session. Copy t
 
 There is one important caveat we must establish early. The watermark only applies to words Claude itself selects. When Claude lightly edits or proofreads something a person has written, the model isn't generating fresh sentences; it's making small, targeted changes to existing ones. Since nearly all the words in the final version remain the person's own, there is, in Anthropic's own words, "very little (if anything)" to watermark. A single grammar pass on an otherwise human-written article may leave next to no detectable trace.
 
-That's a meaningfully different picture from "any use of Claude marks your writing as AI-made." This said, some issues still remain.
+In other words, we don't have to worry about Claude marking all your personal writing as AI-made. This said, some issues still remain.
 
 ## Where the real question sits
 
