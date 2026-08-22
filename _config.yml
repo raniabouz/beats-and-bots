@@ -23,7 +23,7 @@ email: bouzekraouirania@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Notes on copyright, platform regulation, and the legal questions technology
   and media keep raising faster than the law can answer.
-baseurl: "/beats-and-bots" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://beatsandbots.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
