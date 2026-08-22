@@ -75,7 +75,7 @@ title: Beats & Bots
     <div>
     <h2>Written by a law and tech nerd with a music habit</h2>
     <p>I'm Rania, a First Class LLB graduate (University of Sussex) specialising in IP, technology, and platform law. Before law, I spent years in music and documentary photography — which is where the questions behind this blog started.</p>
-    <p>My research on generative AI and music ownership, funded through a Junior Research Associate project, was presented at the British Conference of Undergraduate Research 2025. I've since worked across ad policy and platform compliance during a placement year at TikTok, alongside experience at The Guardian and Hogan Lovells, and I write here to keep pulling that thread.</p>
+    <p>My research on generative AI and music ownership, funded through a Junior Research Associate project, was presented at the British Conference of Undergraduate Research 2025. I've since worked across ad policy and platform compliance during a placement year at TikTok, alongside experience at The Guardian and Hogan Lovells, and I write here to keep pulling on that thread.</p>
       <div class="credentials">
         <span class="pill">Best Essay Prize, Internet Law & Regulation</span>
         <span class="pill">TikTok Ad Policy placement</span>
