@@ -190,12 +190,13 @@
   .foot-links a{ text-decoration:none; font-size:0.88rem; font-weight:500; display:flex; align-items:center; gap:6px; }
   .foot-links a:hover{ color: var(--rose); }
   .footer-contact-grid{ display:grid; grid-template-columns: 1.1fr 0.9fr; gap:40px; align-items:flex-start; }
+  .footer-photo{ width:100%; max-width:320px; max-height:320px; }
 
   .nav-toggle{ display:none; }
   header{ position:relative; z-index:10; }
   @media (max-width: 820px){
     .hero-grid, .about, .footer-contact-grid{ grid-template-columns: 1fr; }
-    .footer-contact-grid img{ max-width: 280px; margin: 0 auto; }
+    .footer-contact-grid img{ max-width: 200px; margin: 0 auto; }
     .topic-list{ grid-template-columns: 1fr; }
     .hero{ padding: 52px 0 60px; }
     .posts{ grid-template-columns: 1fr; }
@@ -251,7 +252,7 @@
     <p style="color:var(--text-mute); font-size:0.9rem; margin:0; font-style:italic;">Based in Brighton, but never more than one click away.</p>
   </div>
 
-  <img src="{{ '/assets/images/footer-cat.jpg' | relative_url }}" alt="A cat interrupting family law revision" style="width:100%; max-width:320px; max-height:320px; object-fit:cover; border-radius:14px; display:block; margin-left:auto;">
+  <img src="{{ '/assets/images/footer-cat.jpg' | relative_url }}" alt="A cat interrupting family law revision" class="footer-photo" style="object-fit:cover; border-radius:14px; display:block; margin-left:auto;">
 </div>
 
     <div style="display:flex; align-items:center; gap:10px; padding-top:32px; margin-top:32px; border-top:1px solid var(--line);">
