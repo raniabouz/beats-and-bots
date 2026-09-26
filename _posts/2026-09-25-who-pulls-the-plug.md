@@ -2,7 +2,7 @@
 layout: post
 title: "Who Pulls the Plug? Parliament and the Push to Ban Superintelligence"
 tag: AI & regulation
-tag_color: c4
+tag_color: c1
 thumbnail: /assets/images/posts/superintelligence.jpg
 ---
 

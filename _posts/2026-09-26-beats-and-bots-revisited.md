@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Beats & Bots, Revisited: Should AI Music Be Copyrighted?"
-tag: AI & copyright
-tag_color: c3
+tag: Media & IP
+tag_color: c4
 thumbnail: /assets/images/posts/beats-and-bots-revisited.jpg
 ---
 

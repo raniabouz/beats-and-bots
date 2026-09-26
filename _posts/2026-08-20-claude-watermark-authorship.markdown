@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The Claude watermark, and the authorship question nobody asked for"
-tag: AI & copyright
-tag_color: c3
+tag: Media & IP
+tag_color: c4
 thumbnail: /assets/images/posts/claude.jpg
 ---
 
