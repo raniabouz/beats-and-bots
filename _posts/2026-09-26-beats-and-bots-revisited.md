@@ -45,6 +45,8 @@ In my original presentation I described UK originality in terms of "skill, labou
 
 I also relied on *Express Newspapers v Liverpool Daily Post* [1985], where the court compared a computer to a pen: the person using the tool, not the tool itself, is the author. That remains good law, and it matters here. Where AI is used as a tool, a human can be the author in the ordinary way, with no need for section 9(3) at all. Section 9(3) is aimed at a different situation: works with no human author. The key case on it is [*Nova Productions v Mazooma Games* [2007] EWCA Civ 219](https://www.bailii.org/ew/cases/EWCA/Civ/2007/219.html), where the programmer, not the person playing the game, was held to have made the arrangements necessary for the work's creation. Applied to generative AI, that reasoning points towards the developer rather than the prompting user, which is not the result most people would expect or want. So the real question is which side of the line a piece of AI music falls on: a human work made with a tool, or a computer-generated work with no human author.
 
+![A line drawing of a pen](/assets/images/posts/pen.png){: style="max-width: 200px; display: block; margin: 0 auto;"}
+
 The government seems to agree the provision doesn't work. Its [Report on Copyright and Artificial Intelligence](https://assets.publishing.service.gov.uk/media/69ba692226909a14239612e4/CP2602959_-_Report_on_Copyright_and_Artificial_Intelligence_web.pdf), published in March 2026, concluded that protection for computer-generated works under section 9(3) should be removed, though it plans to keep monitoring how it is used. For now, though, there is no new legislation, and section 9(3) remains on the statute book until Parliament acts.
 
 ## Elsewhere
