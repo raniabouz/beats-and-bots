@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
+<div class="progress" aria-hidden="true"></div>
+<script>
+(function(){
+  var bar = document.querySelector('.progress');
+  function upd(){
+    var h = document.documentElement;
+    var p = h.scrollTop / ((h.scrollHeight - h.clientHeight) || 1);
+    bar.style.transform = 'scaleX(' + Math.min(p, 1) + ')';
+  }
+  addEventListener('scroll', upd, { passive: true });
+  upd();
+})();
+</script>
 <div class="wrap">
   <a class="back-link" href="{{ '/' | relative_url }}#posts">Back to all posts</a>
 

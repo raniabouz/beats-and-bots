@@ -209,6 +209,52 @@
     .hero-art{ order:-1; }
     .headshot{ width: 180px; height: 180px; }
   }
+
+  /* ---------- motion ---------- */
+  @keyframes rise{ from{ opacity:0; transform:translateY(18px); } to{ opacity:1; transform:none; } }
+  @keyframes drift{ from{ transform:scale(1.04) translate(0,0); } to{ transform:scale(1.12) translate(-2%,-1%); } }
+
+  /* hero content arrives in sequence */
+  .hero h1, .hero p.sub, .hero-cta, .hero-art{
+    animation: rise .8s cubic-bezier(.2,.7,.2,1) both;
+  }
+  .hero h1{ animation-delay:.12s; }
+  .hero p.sub{ animation-delay:.28s; }
+  .hero-cta{ animation-delay:.42s; }
+  .hero-art{ animation-delay:.2s; }
+
+  /* network background slowly drifts behind the gradient */
+  .hero{ background-image:none; }
+  .hero::after{
+    content:""; position:absolute; inset:-6%; z-index:0;
+    background:url("{{ '/assets/images/network.png' | relative_url }}") center/cover;
+    animation: drift 30s ease-in-out infinite alternate;
+  }
+
+  /* post thumbnails zoom gently on hover */
+  .card-thumb img{ transition: transform .5s ease; }
+  .card:hover .card-thumb img{ transform: scale(1.05); }
+
+  /* "Latest" badge on the newest post */
+  .new-badge{
+    position:absolute; top:14px; left:14px; z-index:2;
+    background:var(--white); color:var(--navy); font-weight:700; font-size:.72rem;
+    padding:5px 11px; border-radius:999px; box-shadow:0 2px 10px rgba(19,20,23,.15);
+  }
+  .new-badge::before{
+    content:""; display:inline-block; width:7px; height:7px; border-radius:50%;
+    background:#2F6B4F; margin-right:6px; vertical-align:1px;
+  }
+
+  /* reading progress bar (post pages) */
+  .progress{
+    position:fixed; top:0; left:0; right:0; height:3px; background:var(--mustard);
+    transform-origin:left; transform:scaleX(0); z-index:50;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{ animation:none !important; transition:none !important; }
+  }
 </style>
 </head>
 <body>

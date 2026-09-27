@@ -6,7 +6,6 @@ title: Beats & Bots
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow"><span class="label">Law for tech and media</span></p>
       <h1>Where IP, platforms,<br>and AI meet the<br><span class="pop">law that governs them.</span></h1>
       <p class="sub">Notes on copyright, platform regulation, and the legal questions technology and media keep raising faster than the law can answer.</p>
       <div class="hero-cta">
@@ -31,6 +30,7 @@ title: Beats & Bots
       {% for post in site.posts %}
       <article class="card">
         <div class="card-thumb">
+          {% if forloop.first %}<span class="new-badge">Latest</span>{% endif %}
           {% if post.thumbnail %}
             <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" style="object-position: 50% 20%;">
           {% else %}
