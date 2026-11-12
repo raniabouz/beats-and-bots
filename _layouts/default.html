@@ -246,10 +246,37 @@
     background:#2F6B4F; margin-right:6px; vertical-align:1px;
   }
 
-  /* reading progress bar (post pages) */
+   /* reading progress bar (post pages) */
   .progress{
     position:fixed; top:0; left:0; right:0; height:3px; background:var(--mustard);
     transform-origin:left; transform:scaleX(0); z-index:50;
+  }
+
+  /* ---------- robot peeking out from behind the headshot ---------- */
+  .hero-photo-wrap{ position:relative; display:inline-block; }
+  .hero-photo-wrap .headshot{ position:relative; z-index:2; }
+  .hero-robot{
+    position:absolute; right:-22%; top:30%; width:36%; z-index:1;
+    animation: robot-peek 5s ease-in-out infinite;
+  }
+  .hero-robot svg{ display:block; width:100%; overflow:visible; }
+  @keyframes robot-peek{
+    0%, 10%   { transform: translateX(-70%) rotate(0); }
+    25%, 75%  { transform: translateX(0) rotate(12deg); }
+    45%       { transform: translateX(0) rotate(4deg); }
+    90%, 100% { transform: translateX(-70%) rotate(0); }
+  }
+  .hero-robot-antenna{ transform-origin:54px 30px; animation: robot-antenna 2.4s ease-in-out infinite; }
+  @keyframes robot-antenna{
+    0%, 60%, 100% { transform: rotate(0); }
+    70% { transform: rotate(-14deg); }
+    80% { transform: rotate(12deg); }
+    90% { transform: rotate(-6deg); }
+  }
+  .hero-robot-eyes{ transform-origin:53px 55px; animation: robot-blink 4s infinite; }
+  @keyframes robot-blink{
+    0%, 92%, 100% { transform: scaleY(1); }
+    95% { transform: scaleY(0.1); }
   }
 
   @media (prefers-reduced-motion: reduce){

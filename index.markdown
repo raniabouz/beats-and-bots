@@ -13,9 +13,27 @@ title: Beats & Bots
         <a class="btn btn-ghost" href="#about">About the blog</a>
       </div>
     </div>
-    <div class="hero-art">
-      <div class="headshot">
-        <img src="{{ '/assets/images/headshot.png' | relative_url }}" alt="Rania, author of Beats and Bots">
+        <div class="hero-art">
+      <div class="hero-photo-wrap">
+        <div class="hero-robot" aria-hidden="true">
+          <svg viewBox="0 0 106 100">
+            <g class="hero-robot-antenna">
+              <line x1="54" y1="30" x2="54" y2="12" stroke="#1B2740" stroke-width="5" stroke-linecap="round"/>
+              <circle cx="54" cy="10" r="7" fill="#1B2740"/>
+            </g>
+            <polygon points="18,54 6,58 18,62" fill="#1B2740"/>
+            <polygon points="88,54 100,58 88,62" fill="#1B2740"/>
+            <rect x="18" y="30" width="70" height="58" rx="12" fill="#1B2740"/>
+            <g class="hero-robot-eyes">
+              <circle cx="40" cy="55" r="10" fill="none" stroke="#fff" stroke-width="5"/>
+              <circle cx="66" cy="55" r="10" fill="none" stroke="#fff" stroke-width="5"/>
+            </g>
+            <line x1="38" y1="76" x2="68" y2="76" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="headshot">
+          <img src="{{ '/assets/images/headshot.png' | relative_url }}" alt="Rania, author of Beats and Bots">
+        </div>
       </div>
     </div>
   </div>
