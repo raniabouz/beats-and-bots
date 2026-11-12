@@ -6,7 +6,7 @@ tag_color: c4
 thumbnail: /assets/images/posts/Wipo-AI.jpg
 ---
 
-This week I attended the first World Intellectual Property Organisation's Global Forum on Intellectual Property and Artificial Intelligence. It was my first time in an international organisation let alone at WIPO and I can't wait to share with you what I learned.
+This week I attended the first World Intellectual Property Organisation's Global Forum on Intellectual Property and Artificial Intelligence. It was my first time at WIPO and I can't wait to share with you what I learned.
 
 By the end of WIPO's Global Forum on IP and AI in Geneva, one phrase had appeared in my notes more than any other: "the human at the centre". Ministers from across the world used it. Heads of national IP offices used it. Leading artists, filmmakers, publishers and technology companies all used it. It was the one point on which the whole room agreed. However, if everyone agrees the human belongs at the centre, the natural follow-up is which human. The answer changes depending on where you stand: whether you are looking at the data a model learns from, the money that flows from it, the office that grants the rights, or the invention at the end.
 
