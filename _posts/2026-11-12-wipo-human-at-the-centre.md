@@ -27,7 +27,7 @@ The copyright lead at a major global tech company saw it differently. Asking eve
 While policymakers debate, the courts are already answering narrower versions of the same question, and not always in the same way.
 
 - **Germany:** in GEMA v OpenAI, the court held that lyrics memorised by a model are reproduced in the model itself, and that the TDM exception covers analysis, not memorisation.
-- **UK:** in Getty Images v Stability AI, the High Court found that the model's weights store no copies of Getty's images, leaving Getty with only narrow trade mark wins.
+- **UK:** in Getty Images v Stability AI, training outside the UK put it beyond the reach of UK copyright law, leaving Getty with only a few narrow trade mark wins.
 - **US:** early rulings in Bartz v Anthropic and Kadrey v Meta treated training as fair use, with caveats, while Thomson Reuters v ROSS Intelligence went the other way.
 - **Vietnam and India:** Vietnam now requires permission for commercial training, and India has proposed blanket licensing with a statutory right to remuneration.
 
