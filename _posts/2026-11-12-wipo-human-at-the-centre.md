@@ -3,7 +3,7 @@ layout: post
 title: "Two Days at WIPO: Which Human Is at the Centre of IP and AI?"
 tag: Media & IP
 tag_color: c4
-thumbnail: /assets/images/posts/Wipo-ai.jpg
+thumbnail: /assets/images/posts/Wipo-AI.jpg
 ---
 
 This week I attended the first World Intellectual Property Organisation's Global Forum on Intellectual Property and Artificial Intelligence. It was my first time in an international organisation let alone at WIPO and I can't wait to share with you what I learned.
