@@ -36,9 +36,12 @@ The result is a patchwork. The same model can be lawful in one country and infri
 
 ## Show me the money
 
+<img src="/assets/images/posts/robotholdingmoney.png" alt="A doodled robot holding a £20 note to its ear like a phone" style="float:right; width:160px; margin:0 0 12px 20px; border-radius:0;">
+
 If permission is one half of the question, payment is the other. Licensing is growing, but slowly. News publishers have signed around 70 direct deals with AI companies, which one panellist estimated covers less than 0.5% of the market.
 
 For me, the most thought-provoking contributions questioned whether payment has to follow the western single-author model at all. A law professor from one of Africa's leading universities explained that many African creative industries are collaborative, and that in Nollywood the money tends to come from platforms rather than audiences. Creators need payment, she argued, but not necessarily exclusivity. The chair of an international Indigenous caucus described knowledge that is collective, intergenerational and sometimes sacred, including designs that may only be used at funerals. That knowledge is not currently protected by the IP system, so it can be used in training without anyone being asked. One line from the authorship panel stayed with me: there is no single human at the centre, but a network of humans.
+
 
 ## The final say
 
