@@ -34,7 +34,7 @@ title: Beats & Bots
       {% assign mins = words | divided_by: 200 | at_least: 1 %}
       <article class="card">
         <div class="card-thumb">
-          {% if forloop.first %}<span class="new-badge">Latest</span>{% endif %}
+          {% if forloop.first %}<span class="new-badge" data-date="{{ post.date | date_to_xmlschema }}">New</span>{% endif %}
           {% if post.thumbnail %}
             <img src="{{ post.thumbnail | relative_url }}" alt="" style="object-position: 50% 20%;">
           {% else %}
