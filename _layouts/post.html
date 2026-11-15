@@ -19,7 +19,7 @@ layout: default
 
   <article class="article">
     {% if page.tag %}
-      <div class="meta"> <span class="tag-pill {{ page.tag_color | default: 'c1' }}">{{ page.tag }}</span> <span class="label">{{ page.date | date: "%B %-d, %Y" }}</span> </div>
+      <div class="meta"><span class="tag-pill {{ page.tag_color | default: 'c1' }}">{{ page.tag }}</span><span class="card-date">{{ page.date | date: "%-d %b %Y" }}</span></div>
     {% endif %}
 
     <h1>{{ page.title }}</h1>

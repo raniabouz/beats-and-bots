@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "The Claude watermark, and the authorship question nobody asked for"
+title: "The Claude Watermark, and the Authorship Question Nobody Asked For"
 tag: Media & IP
 tag_color: c4
+excerpt: 'Everyone is asking about the supposed ''Claude watermark'' and what it means for them. So what is this all about?'
 thumbnail: /assets/images/posts/claude.jpg
 ---
 

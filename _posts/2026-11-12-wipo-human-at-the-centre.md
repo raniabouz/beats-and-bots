@@ -3,6 +3,7 @@ layout: post
 title: "Two Days at WIPO: Which Human Is at the Centre of IP and AI?"
 tag: Media & IP
 tag_color: c4
+excerpt: 'By the end of WIPO''s Global Forum on IP and AI in Geneva, one phrase had appeared in my notes more than any other: "the human at the centre".'
 thumbnail: /assets/images/posts/Wipo-AI.jpg
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Can I See Some ID? The EU Kids Act and the Age-Checked Internet"
 tag: Platforms & speech
 tag_color: c2
+excerpt: 'A fourteen-year-old in Paris opens her favourite app at midnight. Under a new EU proposal, she couldn''t have an account of her own at all.'
 thumbnail: /assets/images/posts/laptopchild.jpg
 ---
 
@@ -20,7 +21,7 @@ The Commission's case rests on two prongs: child protection and the preservation
 
 The market problem is that Member States weren't waiting. Italy, France, Greece, Austria, Poland and Belgium (along with Norway, through the EEA) have all notified draft national laws restricting minors' access to certain services under the EU's [TRIS procedure](https://technical-regulation-information-system.ec.europa.eu/en/home), with age limits ranging from 13 to 16. That matters because the single market is meant to let a service built for one Member State operate across all of them. A patchwork of national age limits would mean platforms redesigning their products country by country, with children getting a different level of protection depending on where they live. The European Parliament, in its [resolution of 26 November 2025](https://www.europarl.europa.eu/doceo/document/TA-10-2025-0299_EN.html), asked for a harmonised age of 16 (with parental authorisation below that) and a hard floor of 13. 
 
-## It's Not What You Are, It's What You Do
+## It's not what you are, it's what you do
 
 Article 6 does not ban under-15s from all social media as such. It stops them creating or using an account on an online social networking or video-sharing service where the service poses a risk to their privacy, safety or security. That risk is then defined by features. 
 

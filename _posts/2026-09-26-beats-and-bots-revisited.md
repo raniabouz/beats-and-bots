@@ -3,6 +3,7 @@ layout: post
 title: "Beats & Bots, Revisited: Should AI Music Be Copyrighted?"
 tag: Media & IP
 tag_color: c4
+excerpt: 'In 2025 I presented research at the British Conference of Undergraduate Research. A lot has changed since then, so this post is part origin story and part update.'
 thumbnail: /assets/images/posts/beats-and-bots-revisited.jpg
 ---
 

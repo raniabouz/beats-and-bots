@@ -3,6 +3,7 @@ layout: post
 title: "Who Pulls the Plug? Parliament and the Push to Ban Superintelligence"
 tag: AI & regulation
 tag_color: c1
+excerpt: 'This month, parliament was told that the chief executives at top AI companies themselves put the chance that AI ends all human life between 10% and 25%.'
 thumbnail: /assets/images/posts/superintelligence.jpg
 ---
 
