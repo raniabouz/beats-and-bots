@@ -174,10 +174,14 @@
   .card p{ color: var(--text-mute); font-size:0.95rem; line-height:1.55; margin:0 0 14px; }
 
   /* ---------- topics ---------- */
-  .topic-list{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
-  .topic-list li{ display:flex; gap:14px; padding: 16px 0; border-bottom:1px solid var(--line); align-items:flex-start; }
-  .topic-list .dot{ width:9px; height:9px; border-radius:50%; margin-top:7px; flex-shrink:0; }
-  .topic-list h4{ font-size:1rem; font-weight:700; color:var(--navy); margin:0 0 3px; }
+  .topic-list{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; }
+  .topic-list li{ display:flex; gap:10px; align-items:baseline; }
+  .topic-list .num, .topic-list h4{ font-size:1rem; font-weight:700; color:inherit; margin:0 0 3px; }
+  .topic-list .num{ flex-shrink:0; min-width:1.1em; }
+  .topic-list li.t1{ color:var(--navy); }
+  .topic-list li.t2{ color:#A3385A; }
+  .topic-list li.t3{ color:#7A5A12; }
+  .topic-list li.t4{ color:#3F7A5C; }
   .topic-list p{ margin:0; color: var(--text-mute); font-size:0.9rem; }
 
   /* ---------- about ---------- */
