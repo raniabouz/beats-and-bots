@@ -137,7 +137,7 @@
 
   /* ---------- posts ---------- */
   .posts{ display:grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
-  .card{ position:relative; background: var(--white); border:1px solid var(--line); border-radius: 18px; padding:12px; transition: transform .18s ease, box-shadow .18s ease; }
+  .card{ display:flex; flex-direction:column; position:relative; background: var(--white); border:1px solid var(--line); border-radius: 18px; padding:12px; transition: transform .18s ease, box-shadow .18s ease; }
   .card:hover{ transform: translateY(-3px); box-shadow: 0 12px 24px rgba(19,20,23,0.06); }
   .card-thumb{
     position:relative; width:100%; aspect-ratio: 16 / 9; overflow:hidden; border-radius:12px;
@@ -150,18 +150,18 @@
   }
   .card-meta{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; }
   .card-date{ font-size:0.88rem; font-weight:400; color: var(--text-mute); }
-  .card-foot{ font-size:0.75rem; font-weight:500; letter-spacing:0.05em; text-transform:uppercase; color: var(--text-mute); }
+  .card-foot{ margin-top:auto; font-size:0.88rem; color: var(--text-mute); }
   .card-share{ position:absolute; top:12px; right:12px; z-index:2; width:36px; height:36px; display:flex; align-items:center; justify-content:center; border:none; border-radius:10px; background:rgba(19,20,23,.55); color:var(--white); cursor:pointer; transition: background .15s ease; }
   .card-share:hover{ background:rgba(19,20,23,.8); }
   .card-share:focus-visible{ outline:2px solid var(--white); outline-offset:2px; }
   .card-share.copied::after{ content:"Link copied"; position:absolute; top:42px; right:0; white-space:nowrap; font-size:0.72rem; font-weight:600; background:var(--ink); color:var(--white); padding:4px 8px; border-radius:6px; }
-  .card-body{ padding: 18px 6px 6px; }
+  .card-body{ flex:1; display:flex; flex-direction:column; padding: 18px 6px 6px; }
   .tag-pill{ display:inline-block; font-size:0.78rem; font-weight:600; padding:4px 11px; border-radius:7px; color:var(--white); }
   .tag-pill.c1{ background: var(--navy); }
   .tag-pill.c2{ background: var(--rose); }
   .tag-pill.c3{ background: var(--mustard); color: var(--ink); }
   .tag-pill.c4{ background: #2F6B4F; }
-  .card .tag-pill, .article .tag-pill{ background:none; padding:0; border-radius:0; font-size:1rem; font-weight:500; }
+  .card .tag-pill, .article .tag-pill{ background:none; padding:0; border-radius:0; font-size:0.88rem; font-weight:500; }
   .card .tag-pill.c1, .article .tag-pill.c1{ color:var(--navy); }
   .card .tag-pill.c2, .article .tag-pill.c2{ color:#A3385A; }
   .card .tag-pill.c3, .article .tag-pill.c3{ color:#7A5A12; }

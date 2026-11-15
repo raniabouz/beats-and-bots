@@ -49,11 +49,10 @@ title: Beats & Bots
         <div class="card-body">
           <div class="card-meta">
             {% if post.tag %}<span class="tag-pill {{ post.tag_color | default: 'c1' }}">{{ post.tag }}</span>{% endif %}
-            <span class="card-date">{{ post.date | date: "%-d %b %Y" }}</span>
           </div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-          <span class="card-foot">{{ mins }} min read</span>
+          <span class="card-foot">{{ post.date | date: "%-d %b %Y" }} · {{ mins }} min read</span>
         </div>
       </article>
       {% endfor %}
