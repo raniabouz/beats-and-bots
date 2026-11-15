@@ -6,7 +6,7 @@ title: Beats & Bots
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <h1>Welcome to my blog.<br><span class="SOMETHING">Let's talk tech law!</span></h1>
+      <h1>Pull up a chair.<br><span class="SOMETHING">Let's talk tech law!</span></h1>
       <p class="sub">I'm Rania, and I write about copyright, platforms, AI and the legal questions that change faster than you can say “Ctrl+C”.</p>
       <div class="hero-cta">
         <a class="btn btn-solid" href="#posts">Read the latest</a>
